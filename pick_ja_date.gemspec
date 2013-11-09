@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "pick_ja_date"
   spec.version       = PickJaDate::VERSION
   spec.authors       = ["hiroshi kobayashi"]
-  spec.email         = ["kobayashi@ans-web.co.jp"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.email         = ["koba.shipbuilding@gmail.com"]
+  spec.description   = %q{日本語のテキストから日付を取得する}
+  spec.summary       = %q{日本語のテキストから日付を取得する}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "active_support"
+  spec.add_development_dependency "i18n"
 end

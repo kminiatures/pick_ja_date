@@ -1,6 +1,6 @@
 # PickJaDate
 
-TODO: Write a gem description
+日本語の文字列から日付を取得する
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    現在時刻が '2011/10/10 10:10:00' の時に
+
+    ```
+    time,text = PickJaDate.extract('三ヶ月後の3日の13:00に地下鉄にのる')
+    p time # 2011-11-03 13:00:00 +0900
+    p text # 地下鉄にのる
+    ```
 
 ## Contributing
 

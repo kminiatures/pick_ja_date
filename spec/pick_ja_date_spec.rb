@@ -51,7 +51,6 @@ describe PickJaDate do
         r_time,r_text = PickJaDate.extract(text.dup)
         expect(format_time(r_time)).to eq(time)
         expect(r_text).to eq('地下鉄にのる')
-
         expect(format_time(PickJaDate.date(text.dup))).to eq(time)
       end
     end
