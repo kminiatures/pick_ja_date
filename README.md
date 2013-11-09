@@ -18,13 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-    現在時刻が '2011/10/10 10:10:00' の時に
+現在時刻が '2011/10/10 10:10:00' の時に
 
-    ```
     time,text = PickJaDate.extract('三ヶ月後の3日の13:00に地下鉄にのる')
-    p time # 2011-11-03 13:00:00 +0900
+    p time # 2012/01/03 13:00:00 +0900
     p text # 地下鉄にのる
-    ```
 
 ## Contributing
 
